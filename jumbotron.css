@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.container p {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #fffccc !important;
+  box-shadow: 3px 3px 1.5px #e0e0e0;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: white !important;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: white !important;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: white !important;
+}
+
+.navbar-nav>li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.display-3 {
+  text-align: center;
+}
+
+h2 {
+  color: #DC3545;
+  text-align: center;
+}
+
+h4 {
+  padding-top: 1%;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.subjects {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.image2 {
+  width: 30%;
+}
+
+.image2block {
+  display: flex;
+  justify-content: center;
+}
+
+#OurSubjects {
+  text-align: center;
+}
+
+#h3header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#h3header a {
+  color: black;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #DC3545;
+  color: white;
+  margin: 15px 0 0 0;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color and some padding around the form */
+#container2 {
+  border-radius: 5px;
+  background-color: #fffccc;
+  box-shadow: 3px 3px 1.5px #e0e0e0;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Tips */
+
+.TipsAndSubjects h2 {
+  color: #DC3545;
+  text-align: center;
+}
+
+.TipsAndSubjects {
+  margin: 0 80px 40px 80px;
+  padding: 3% 3% 3% 3%;
+  font-size: 16px;
+  background-color: #fffccc;
+  box-shadow: 3px 3px 1.5px #e0e0e0;
+}
+
+.TipsAndSubjects p {
+  padding: 0 3% 0 3%;
+}
+
+.TipsAndSubjects ul {
+  padding: 0 6% 0 6%;
+}
+
+.TipsAndSubjects ol {
+  padding: 0 6% 0 6%;
+}
+
+.responsivevid {
+  padding: 0 50px 0 50px;
+  text-align: center;
+}
+
+.background {
+  background-image: url("Tips/images/bg.png");
+  background-size: 100% 100%;
+}
+
+/* FRENCH */
+
+button {
+  background-color: #fffccc;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  width: 19%;
+}
+
+.frenchgames1 {
+  margin: auto;
+  width: 90%;
+  border: 3px dashed #DC3545;
+  padding: 10px;
+}
+
+#p-center {
+  text-align: center;
+}
+
+.mathsgames1 {
+  margin: auto;
+  width: 90%;
+  border: 3px dashed #2d8cfa;
+  padding: 10px;
+  text-align: center;
+}
+
+#p1 {
+  font-size: 26px !important;
+}
+
+#backgroundfrance {
+  background-image: url("French/images/bgfrance.png");
+  background-size: 100% 100%;
+}
+
+#backgroundmaths {
+  background-image: url("Maths/images/bgmaths.png");
+  background-size: 100% 100%;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 639px) {
+  #TipsAndSubjectsFrench {
+    display: none;
+  }
+}
+
+/*ART PAGE*/
+
+.h1class {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2rem;
+  color: black;
+  font-size: 4.5vw;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  font-weight: bold;
+}
+
+#artbody {
+  color: #2d8cfa;
+}
+
+.drawing {
+  border-style: outset;
+  max-width: 100%;
+  height: auto;
+  padding: 0 0 15px 0;
+}
+
+#artbackground {
+  background-image: url("Art/images/artbg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#artbackground2 {
+  background-image: linear-gradient(white, orange, purple);
+}
